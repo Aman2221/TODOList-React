@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+  margin: 0;padding: 0;box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background:linear-gradient(royalblue,cyan);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Poppins';
+}
+#todo{
+  width: 250px;
+  height: 300px;
+  box-sizing: border-box;
+  box-shadow: 0 0 15px rgba(0,0,0,0.7);
+  border-radius: 20px;
+}
+h1{
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color:rgba(0,0,0,0.8);
+}
+h1 span{
+  color: #000;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+input{
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  height: 20px;
+  position: relative;
+  left: 30px;top: 10px;
+  text-align: center;
+}
+input::placeholder{
+  text-align: center;
+}
+button{
+ position: relative;left: 32px;top: 13px;
+ outline: none;
+ border: none;
+ background: none;
+}
+button i{
+  font-size: 20px;
+  color: rgba(12, 241, 12, 0.9);
+  border: none;
+  outline: none;
+  background: #fff;
+  border-radius: 50%;
+}
+ol{
+  list-style-type: none;
+  position: relative;
+  top: 25px;
+  left: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  line-height: 35px;
+}
+ol i{
+  color: red;
+  position: relative;left: -10px;
+}

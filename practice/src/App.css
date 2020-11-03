@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  font-family: 'Poppins',sans-serif;margin: 0;padding: 0;box-sizing: border-box;
+}
+h1{
+  font-size: 3em;
+  text-align: center;
+}
+input, button{
+  border: none;
+  background: linear-gradient(#000,rgba(0,0,0,0.5));
+  width: 300px;
+  height: 40px;
+  border-radius: 25px;
+  color: cyan;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 18px;
+  position: relative;left: 3px;top: 10px;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+}
